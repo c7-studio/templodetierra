@@ -35,7 +35,7 @@ const onSubmit = (e) => {
 
 
   return (
-    <form className='flex flex-col' ref={form} onSubmit={onSubmit} action="">
+    <form className='flex flex-col' onSubmit={onSubmit} action="">
         <label htmlFor="name" className="my-4 text-brown">Nombre</label>
         <input
             className="mb-2 border-b-2 bg-yellowcito border border-green text-brown text-sm focus:ring-greencito focus:border-greencito block w-full p-2.5" 
