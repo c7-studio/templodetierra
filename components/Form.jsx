@@ -14,8 +14,8 @@ const Form = () => {
 const onSubmit = (e) => {
     e.preventDefault();
     send(
-        'service_ijr1bmb',
-        'template_akwer7k',
+        'service_pq8i785',
+        'template_e13vty5',
         toSend,
         'eif9fAisD6xQWjpg5'
       )
